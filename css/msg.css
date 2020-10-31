@@ -1,0 +1,4 @@
+.msg {height: 11%; background: linear-gradient(rgba(0,0,0,0.2), 
+			rgba(0,0,0,0.5)),url(../img/abstract3.jpg)no-repeat bottom/cover; color: #fff;  }
+			.msg-frase { position: relative; top: 100px; left: 200px; font-size: 1.7em; width: 70%; }
+			.msg-autor { position: relative; top: 200px; left: 600px; font-size: 1.3em; }

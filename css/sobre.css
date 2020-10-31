@@ -1,0 +1,9 @@
+/*Sobre*/
+.sobre {height:23%; }
+.sobre { background: #222; font-family: 'Roboto', sans-serif; }
+.sobre img { height: 500px; position: relative; top: 100px; left: 200px; }
+	.sobre-detalhes { width: 40%; position: relative; left: 700px; bottom: 300px; 
+					color: #fff;}
+	.sobre-detalhes h1{ font-size: 2em; margin-bottom: 1em; }
+	.sobre-detalhes p { font-size: 1.2em; }
+/*Fim sobre */

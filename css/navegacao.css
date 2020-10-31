@@ -1,0 +1,10 @@
+/*Navegação --------------------------------------------------------------------------------*/
+.navegacao { grid-area: nav; display: flex; margin-left: 2em; padding-top: 1em; }
+	.logo a { text-decoration: none; color: #222; font-weight: bold; }
+	.navegacao-itens { margin-left: 12em; }
+	.navegacao-itens-lista { display: flex; }
+	.navegacao-itens-lista li { margin-right: 2em; list-style: none; }
+	.navegacao-itens-lista a { text-decoration: none; color: #222; padding: 1em; }
+	.navegacao-itens-lista a:hover { text-decoration: none; background: #999; color: #fff; }
+	.active { color: red; }
+/*Fim navegação ----------------------------------------------------------------------------*/

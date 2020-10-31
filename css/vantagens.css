@@ -1,0 +1,10 @@
+.vantagens {height: 16%; }
+	.vantagens-titulo { text-align: center; margin-top: 2em; }
+	.imagem-vantagens { position: relative; left: 50px; top: 110px; border-radius: 50%; }
+	.icones-detalhes { font-size: 1em; text-align: center; margin-left: 30em; 
+						position: relative; bottom: 250px; }
+	.trofeu, .check, .chart, .star { position: relative; margin-bottom: 1em; right: 250px;  
+						top: 60px;}
+	.trofeu { color: gold; }
+	.check { color: green; }
+	.chart { color: purple; }

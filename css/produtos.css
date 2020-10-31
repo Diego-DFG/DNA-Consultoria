@@ -1,0 +1,5 @@
+.produtos {height: 25%; }
+		.produtos-titulo, .produtos-paragrafo { color: tomato; }
+		.produtos-titulo { text-align: center; margin-top: 2em; font-size: 3em;}
+		.produtos-paragrafo { width: 70%; text-align: center; position: relative; 
+							font-size: 1.7em; left: 200px; top: 4em; line-height: 2.6em; }
