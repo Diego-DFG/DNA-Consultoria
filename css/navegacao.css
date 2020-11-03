@@ -1,10 +1,13 @@
 /*Navegação --------------------------------------------------------------------------------*/
 .navegacao { font-size: 0.9em; grid-area: nav; display: flex; margin-left: 2em; padding-top: 1em; }
 	.logo { display: block; }
-	.logo a { font-size: 1.1em; text-decoration: none; color: #222; font-weight: bold; }
+	.logo a { font-size: 1.5em; text-decoration: none; color: #222; font-weight: bold; }
 	.logo a:hover { text-decoration: none; }
 	.logo a:nth-child(1) { color: #b90415; }
 	.logo a:nth-child(2):hover { color: #000; }
+	.toggle-button { position: absolute; top: .75em; right: 1em; display: none; flex-direction: column; 
+					justify-content: space-between; width: 30px; height: 21px; }
+	.toggle-button .bar { height: 3px; width: 100%; border-radius: 10px; background: #222; }
 	.navegacao-itens { margin-left: 12em; }
 	.navegacao-itens-lista { display: flex; }
 	.navegacao-itens-lista li { margin-right: 2em; list-style: none; }

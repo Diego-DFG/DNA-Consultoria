@@ -1,0 +1,5 @@
+.secao-cta { height: 9%; }
+	.secao-cta-btn { background: #b90415; border: 3px solid #b90415; padding: 1em 2em; border-radius: 30px; color: #fff; 
+							font-size: 1.5em; position: relative; top: 100px; left: 450px; }
+	.secao-cta-btn:hover { text-decoration: none; background: #fff; border: 3px solid #b90415; 
+								color: #b90415; }

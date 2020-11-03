@@ -7,4 +7,4 @@
 	.file, .money, .home, .law { position: relative; right: 100px; bottom: 60px; }
 	.info { padding: 1em; border-radius: 20px; border: 3px solid#fff; font-size: 1.3em; 
 			background: #fff; position: relative; color: #000; left: 30px; bottom: 20px; font-weight: bold; }
-	.info:hover { color: #b90415; text-decoration: none;}
+	.info:hover { color: #b90415; text-decoration: none; }

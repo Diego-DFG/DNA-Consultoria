@@ -3,7 +3,145 @@
 
 @media (max-width: 420px) {
 
+/* Estilos gerais */
+.wrapper {  height: 6800px; grid-template-areas: "nav" "main" "section" "footer"; 
+				grid-template-rows: 1.5% 9.5% 82% 7%; font-family: 'Open Sans', 
+				sans-serif; }	
+/* Fim de estilos gerais */
+/*Navegação*/
+.toggle-button { display: flex; }
+	.navegacao-itens { display: none; margin: 0; position: relative; right: 50px; }
+	.navegacao { flex-direction: column; align-items: flex-start; }
+	.navegacao { width: 100%; }
+	.navegacao-itens ul { text-align: center; display: block; }
+	.navegacao-itens ul li { padding: 2em 8em; }
+	.navegacao-itens ul li:hover { background: #999; padding: 2em; }
+	.navegacao-itens.active { display: flex; position: relative; z-index: 10; background: #fff; }
+/*Fim da navegação*/
+
+/*conteudo*/
+.vantagens { height: 15.5%; }
+.sobre { height: 20%; }
+.mensagem { height: 9%; }
+.produtos { height: 19.5%; }
+.documentacao { height: 16%; }
+.depoimentos { height: 10%; }
+.secao-cta { height: 10%; }
+/*Fim da seção conteúdo*/
+
+/*Destaque */
+	.destaque { background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),
+				url(../img/meeting5_red_breakpoints.jpg)no-repeat right/cover; }
+	.destaque span, strong { font-size: 1.3em; }
+	.destaques p { position: relative; right: 50px; }
+	.titulo-destaque_1 { font-size: 1.2em; width: 300px; text-align: center; position: relative; 
+							top: 50px; left: 0; }
+	.paragrafo-destaque_1 { font-size: 1.2em; width: 300px; position: relative;  top: 100px; 
+							left: 15px; text-align: center; }
+	
+	.titulo-destaque_2 { font-size: 1.2em; width: 300px; position: relative; left: 10px; top: 130px; 
+							text-align: center; }
+	
+	.paragrafo-destaque_2 { font-size: 1.2em; width: 300px; position: relative; left: 20px; top: 150px; }
+
+	.destaque-cta { position: relative; left: 5px; font-size: 1em; top: 180px; }
+/* Fim de estaques */
+
+/* Vantagens */
+	.vantagens-titulo { position: relative; top: 100px; font-size: 1.7em; width: 40%;
+						text-align: center; left: 30px; }
+	.imagem-vantagens { position: relative; left: 30px; top: 150px; width: 270px; }
+	.icones-detalhes { font-size: 1em; margin-left: 30em; position: relative; right: 570px; 
+						top: 250px; }
+	.trofeu, .check, .chart { height: 25px; }
+	.icones-detalhes p { font-size: 0.8em; text-align: left; width: 250px; }
+	.icones-detalhes p:nth-child(2) { left: 140px; bottom: 30px; }
+	.icones-detalhes p:nth-child(4) { left: 140px; bottom: 30px; }
+	.icones-detalhes p:nth-child(6) { bottom: 40px; left: 140px; }
+	.icones-detalhes p:nth-child(7) { bottom:50px; left: 140px; }
+	.trofeu, .check, .chart, .star { position: relative; margin-bottom: 0.5em; right: 15px;  
+						top: 20px; }
 }
+/* Fim de vantagens */
+
+/*sobre*/
+.sobre img { height: 300px; position: relative; top: 100px; left: 65px; }
+	.sobre-detalhes { width: 50%; position: relative; left: 40px; top: 150px; 
+					color: #fff;}
+	.sobre-detalhes h1{ color: yellow; font-size: 1.5em; margin-bottom: 1.5em; }
+	.sobre-detalhes p { font-size: 1em; width: 70%; }
+/*Fim de sobre*/
+
+/*mensagem*/
+.msg-frase { position: relative; top: 100px; left: 20px; font-size: 1.3em; width: 40%; 
+			text-align: center; }
+.msg-autor { position: relative; top: 200px; left: 110px; 
+				font-size: 1em; }
+/*Fim mensagem*/
+
+/*produtos*/
+.produtos img { position: relative; top: 250px; right: 305px; height: 300px; }
+.produtos-titulo { position: relative; right: 350px; bottom: 300px; text-align: center; 
+					margin-top: 2em; font-size: 2em; width: 40%; }
+.produtos-paragrafo { width: 40%; position: relative; font-size: 1em; 
+					right: 350px; top: 150px; line-height: 2.6em; text-align: left; }
+.produtos-cta { background: #b90415; border: 3px solid #b90415; position: relative; top: 200px; 
+						right: 360px; padding: 1em 2em; border-radius: 30px; color: #fff; 
+							font-size: 1em; }
+.produtos-cta:hover { text-decoration: none; background: #fff; border: 3px solid #b90415; 
+								color: #b90415; }
+/*Fim produtos*/
+
+/*Documentação*/
+.documentacao-titulo { text-align: center; position: relative; top: 50px; font-size: 2em; 
+						right: 200px; }
+.documentacao img { height: 200px; border-radius: 50%; position: relative; top: 100px; left: 15px; }
+.documentacao-detalhes { position: relative; left: 100px; top: 200px; color: #fff; }
+.documentacao-detalhes p { position: relative; bottom: 90px; right: 30px; font-size: 0.9em; width: 30%; }
+.file, .money, .home, .law { height: 30px; }
+.info { padding: 1em; border-radius: 30px; border: 3px solid#fff; font-size: 0.9em; 
+			background: #fff; position: relative; color: #000; left: 30px; bottom: 50px; font-weight: bold; }
+.info:hover { color: #b90415; text-decoration: none;}
+/*Fim da documentação*/
+
+/*Depoimentos*/
+	.depoimentos-titulo { text-align: center; position: relative; right: 200px; top: 50px;
+							font-size: 2em; }
+	.carousel { margin-bottom: 3em; position: relative; top: 50px; }
+	.carousel-item { height: 800px; }
+	.cartao { width: 300px; text-align: center; background: linear-gradient(rgba(0,0,0,0.1),#fff); 
+				border-radius: 10px; }
+	.cartao p { font-size: 1.5em; color: #000; }
+	.cartao span { color: #b90415; font-weight: bold; }
+	.cartao-detalhes_1 { position: relative; left: 10px; bottom: 250px; }
+	.cartao-detalhes_2 { position: relative; left: 10px; top: 120px; }
+	.cartao-detalhes_3 { position: relative; left: 10px; top: 170px; }
+	.angle-left, .angle-right { color: #000; position: relative; bottom: 70px; height: 50px; }
+	.angle-left { right: 30px; }
+	.angle-right { right: 380px; }
+/*Fim de depoimentos*/
+
+/*cta*/
+.secao-cta-btn {  font-size: 1em; position: relative; top: 310px; left: 5px; }
+/*Fim do cta*/
+
+/*rodapé*/
+	.rodape-itens { position: relative; right: 30px; display: block; }
+	.rodape-itens-lista li { position: relative; top: 50px; }
+	.rodape-itens-lista li a { font-size: 0.8em; }
+	.rodape-itens-lista p { position: relative; top: 50px; font-size: 0.8em; }
+	.dev { position: relative; top: 500px; right: 1040px; font-size: 0.8em; }
+	.rodape-titulo { font-size: 1em; font-weight: bold; }
+	#newsletter { position: relative; top: 100px; left: 25px; }
+	.input-news { width: 250px; margin-right: 1em; border-top-left-radius: 10px; 
+					border-bottom-left-radius: 10px; border: none; }
+	.form-news { display: flex; }
+	.news-angle-right { cursor: pointer; color: #fff; }
+	.submit-news { background: #000; border: 2px solid #fff; 
+					border-top-right-radius: 10px; border-bottom-right-radius: 10px; padding: 0 1em; 
+					position: relative; right: 20px; }
+	.redes-sociais li a { position: relative; top: 130px; left: 0px; }
+/*Fim do rodapé*/
 
 @media (min-width: 421px) and (max-width: 720px) {
 

@@ -4,6 +4,8 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>DNA Consultoria</title>
+		<!-- normalize css -->
+		<link rel="stylesheet" type="text/css" href="./css/normalize.css">
 		<!-- estilos gerais css -->
 		<link rel="stylesheet" type="text/css" href="./css/estilos_gerais.css">
 		<!-- navegacao css -->
@@ -24,6 +26,8 @@
 		<link rel="stylesheet" type="text/css" href="./css/documentacao.css">
 		<!-- depoimentos -->
 		<link rel="stylesheet" type="text/css" href="./css/depoimentos.css">
+		<!-- secao cta -->
+		<link rel="stylesheet" type="text/css" href="./css/cta.css">
 		<!-- footer -->
 		<link rel="stylesheet" type="text/css" href="./css/rodape.css">
 		<!-- breakpoints css -->
@@ -36,8 +40,6 @@
 		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
 		<!-- font awesome -->
 		<script src="./js/fontawesome-all.js"></script>
-		<!-- slider -->
-		<link rel="stylesheet" type="text/css" href="./css/slider.css">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -46,6 +48,11 @@
 					<a class="logo-navegacao" href="#">DNA</a>
 					<a class="logo-navegacao" href="#">Consultoria</a>
 				</div>
+				<a href="#" class="toggle-button">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</a>
 				<div class="navegacao-itens">
 					<ul class="navegacao-itens-lista">
 						<li>
@@ -79,15 +86,15 @@
 			<section class="conteudo">
 				<div id="vantagens" class="vantagens">
 					<h1 class="vantagens-titulo">Nesse treinamento você se habilitará</h1>
-						<img data-aos="fade-up" data-aos-delay="300" src="./img/apertodemao.jpg" class="imagem-vantagens">
+					<img data-aos="fade-up" data-aos-delay="300" src="./img/apertodemao.jpg" class="imagem-vantagens">
 					<div class="icones-detalhes">
 						<i class="trofeu fas fa-trophy fa-3x"></i>
-						<p data-aos="fade-left" data-aos-delay="300">Ser um profissional registrado ao CRECI.</p>
+						<p data-aos="fade-left" data-aos-delay="100">Ser um profissional registrado ao CRECI.</p>
 						<i class="check fas fa-check-circle fa-3x"></i>
-						<p data-aos="fade-left" data-aos-delay="500">Dominar técnicas de negociação e marketing.</p>
+						<p data-aos="fade-left" data-aos-delay="200">Dominar técnicas de negociação e marketing.</p>
 						<i class="chart fas fa-chart-line fa-3x"></i>
-						<p data-aos="fade-left" data-aos-delay="800">Aumentar seu número de clientes,</p>
-						<p data-aos="fade-left" data-aos-delay="800"> tornando-se um profissional de valor no mercado.</p>
+						<p data-aos="fade-left" data-aos-delay="300">Aumentar seu número de clientes,</p>
+						<p data-aos="fade-left" data-aos-delay="300"> tornando-se um profissional de valor no mercado.</p>
 					</div>
 				</div>
 				<div id="sobre" class="sobre">
@@ -135,46 +142,49 @@
 								<span>Rodrigo - RJ</span>
 							</div>
 							<div class="cartao cartao-detalhes_2">
-								<p>"Curso excelente, muito didático!"</p>
+								<p>"Dicas muito interessantes, recomendo!"</p>
 								<span>Adriana - RJ</span>
 							</div>
 							<div class="cartao cartao-detalhes_3">
-								<p>"Curso excelente, muito didático!"</p>
+								<p>"Muito exclarecedor, instrutor passa segurança aos aluno."</p>
 								<span>Leonardo - SP</span>
 							</div>
 						</div>
 					    <div class="carousel-item">
 					      	<div class="cartao cartao-detalhes_1">
-								<p>"Curso excelente, muito didático!"</p>
+								<p>"Instrutor cumpre com o prometido, conteúdo excelente!"</p>
 								<span>Cláudia - SP</span>
 							</div>
 							<div class="cartao cartao-detalhes_2">
-								<p>"Curso excelente, muito didático!"</p>
+								<p>"Estou muito animado para colocar os conhecimentos em prática"</p>
 								<span>Thiago - MG</span>
 							</div>
 							<div class="cartao cartao-detalhes_3">
-								<p>"Curso excelente, muito didático!"</p>
+								<p>"Tive vários insights positivos durante a aula, muito bom!"</p>
 								<span>Rafaela - RS</span>
 							</div>
 					    </div>
 					  </div>
 					  <a class="carousel-control-prev" href="#carouselExampleCaptions" data-slide="prev">
-					    <i class="angle-left fas fa-angle-left fa-2x"></i>
+					    <i class="angle-left fas fa-angle-left fa-7x"></i>
 					  </a>
 					  <a class="carousel-control-next" href="#carouselExampleCaptions" data-slide="next">
-					    <i class="angle-left fas fa-angle-right fa-2x"></i>
+					    <i class="angle-right fas fa-angle-right fa-7x"></i>
 					  </a>
 					</div>
 
 					<!-- End of carrossel -->
-					<a href="" class="depoimentos-cta">Quero me tornar corretor agora!</a>
+				</div>
+				<div class="secao-cta">
+					<a href="" class="secao-cta-btn">Quero me tornar corretor agora!</a>
 				</div>
 			</section>
-			<footer id="rodape" class="rodape">
+			<div id="rodape"></div>
+			<footer class="rodape">
 				<div class="rodape-itens">
 					<ul class="rodape-itens-lista">
 						<li>
-							<a id="rodape-titulo">Fale Conosco</a>
+							<a class="rodape-titulo">Fale Conosco</a>
 						</li>
 						<li>
 							<a href="">E-mail: oabmarcio@yahoo.com.br</a>
@@ -185,20 +195,12 @@
 						<p>&copy; DNA Consultoria</p>
 					</ul>
 					<div id="newsletter" class="col-md-5 col-sm-12">
-			          <h4 id="rodape-titulo" class="rodape-newsletter">Newsletter</h4>
-			          <form class="form-inline">
-			            <div class="col pl-0">
-			              <div class="input-group pr-5">
-			                <input type="text" class="form-control 
-
-			                 text-white" id="inlineFormInputGroupUsername2" placeholder="Email">
-			                <div class="input-group-prepend">
-			                  <div class="input-group-text">
-			                    <i class="fas fa-arrow-right"></i>
-			                  </div>
-			                </div>
-			              </div>
-			            </div>
+			          <h4 class="rodape-titulo">Newsletter</h4>
+			          <form>
+			          	<div class="form-news">
+			          		<input type="text" class="input-news" placeholder="   Email">
+			          		<button class="submit-news" type="submit"><i class="news-angle-right fas fa-angle-right fa-2x"></i></button>
+			          	</div>
 			          </form>
 			        </div>
 			        <ul class="redes-sociais">
@@ -209,7 +211,6 @@
 			        		<a href=""><i class="fab fa-instagram fa-2x"></i></a>
 			        	</li>
 			        </ul>
-					<p class="dev">Desenvolvido por: Diego Gomes</p>
 				</div>
 			</footer>
 		</div>
@@ -228,6 +229,9 @@
 
     <!-- Custom Javascript file -->
     <script src="./js/main.js"></script>
+
+    <!-- index.js -->
+    <script src="./js/index.js" async></script>
 
 	</body>
 </html>

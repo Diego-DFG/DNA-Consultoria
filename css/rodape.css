@@ -1,12 +1,12 @@
-.rodape { background: #222; }
+.rodape {grid-area: footer; background: #222; }
 	.rodape-itens { display: flex; }
 	.rodape-itens-lista li { color: #fff; list-style: none; position: relative; color: #fff;  top: 50px; 
 								margin-bottom: 1em; }
 	.rodape-itens-lista li a, p { color: #999; }
 	.rodape-itens-lista p { position: relative; top: 50px; }
-	.dev { position: relative; top: 350px; right: 970px; color: #888; font-size: 0.8em; }
-	#rodape-titulo { color: #fff; font-size: 1.7em; font-weight: bold; }
-	.rodape-newsletter { margin-bottom: 1em; }
+	.dev { position: relative; top: 500px; right: 1040px; color: #888; font-size: 0.8em; }
+	.rodape-titulo { color: #fff; font-size: 1.7em; font-weight: bold; }
 	#newsletter { position: relative; top: 50px; left: 50px; }
 	.redes-sociais li a { color: #fff; position: relative; top: 50px; left: 50px;
 						margin-right: 1em; }
+	.input-group-text { cursor: pointer; }
