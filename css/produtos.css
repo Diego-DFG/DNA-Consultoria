@@ -1,5 +1,12 @@
-.produtos {height: 25%; }
-		.produtos-titulo, .produtos-paragrafo { color: tomato; }
-		.produtos-titulo { text-align: center; margin-top: 2em; font-size: 3em;}
-		.produtos-paragrafo { width: 70%; text-align: center; position: relative; 
-							font-size: 1.7em; left: 200px; top: 4em; line-height: 2.6em; }
+.produtos { position: relative; left: 50%; height: 18%; }
+		.produtos img { position: relative; top: 100px; right: 600px; }
+		.produtos-titulo, .produtos-paragrafo { color: #b90415; }
+		.produtos-titulo { position: relative; right: 515px; bottom: 450px; text-align: center; margin-top: 2em; 
+							font-size: 2em; }
+		.produtos-paragrafo { width: 50%; text-align: center; position: relative; 
+							font-size: 1.3em; right: 180px; bottom: 400px; line-height: 2.6em; }
+		.produtos-cta { background: #b90415; border: 3px solid #b90415; position: relative; bottom: 350px; 
+						right: 130px; padding: 1em 2em; border-radius: 30px; color: #fff; 
+							font-size: 1.5em; }
+		.produtos-cta:hover { text-decoration: none; background: #fff; border: 3px solid #b90415; 
+								color: #b90415; }

@@ -1,0 +1,17 @@
+.depoimentos { height: 16%; }
+	.depoimentos-titulo { text-align: center; margin-top: 1em; }
+	.carousel { top: 20px; }
+	.carousel-item { color: #000;}
+	.cartao { width: 300px; text-align: center; background: linear-gradient(rgba(0,0,0,0.1),#fff); 
+				border-radius: 10px; }
+	.cartao p { font-size: 1.7em; color: #000; }
+	.cartao span { color: #b90415; font-weight: bold; }
+	.cartao-detalhes_1 { position: relative; left: 120px; top: 120px; }
+	.cartao-detalhes_2 { position: relative; left: 530px;}
+	.cartao-detalhes_3 { position: relative; left: 930px; bottom: 120px; }
+	.angle-left { color: #000; }
+	.depoimentos-cta { background: #b90415; border: 3px solid #b90415; position: relative; top: 50px; 
+						left: 400px; padding: 1em 2em; border-radius: 30px; color: #fff; 
+							font-size: 1.5em; }
+	.depoimentos-cta:hover { text-decoration: none; background: #fff; border: 3px solid #b90415; 
+								color: #b90415; }

@@ -1,10 +1,15 @@
 .vantagens {height: 16%; }
-	.vantagens-titulo { text-align: center; margin-top: 2em; }
+	.vantagens-titulo { text-align: center; position: relative; top: 40px; }
 	.imagem-vantagens { position: relative; left: 50px; top: 110px; border-radius: 50%; }
 	.icones-detalhes { font-size: 1em; text-align: center; margin-left: 30em; 
-						position: relative; bottom: 250px; }
-	.trofeu, .check, .chart, .star { position: relative; margin-bottom: 1em; right: 250px;  
-						top: 60px;}
+						position: relative; bottom: 225px; }
+	.icones-detalhes p { position: relative; bottom: 35px; font-size: 1.2em;  color: #000;}
+	.icones-detalhes p:nth-child(2) { left: 50px; }
+	.icones-detalhes p:nth-child(4) { left: 70px; }
+	.icones-detalhes p:nth-child(6) { bottom: 60px; left: 20px; }
+	.icones-detalhes p:nth-child(7) { bottom: 80px; left: 90px; }
+	.trofeu, .check, .chart, .star { position: relative; margin-bottom: 0.5em; right: 180px;  
+						top: 20px; }
 	.trofeu { color: gold; }
-	.check { color: green; }
+	.check {  color: green; }
 	.chart { color: purple; }

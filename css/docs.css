@@ -1,0 +1,16 @@
+/*Estilos gerais ---------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Open.Sans:300,400,600,700,800&display=swap');
+
+body { padding: 0; margin: 0; overflow-x: hidden; }
+	.wrapper { height: 1110px; display: grid; 
+				grid-template-areas: "nav" "main" "footer"; 
+				grid-template-rows: 10% 60% 30%; font-family: 'Open Sans', sans-serif; }
+/*Fim estilos gerais -----------------------------------------------------------------------*/
+
+.destaque {grid-area: main; background: linear-gradient(rgba(0,0,0,0.8), 
+			rgba(0,0,0,0.5)),url(../img/documentacao2.jpg)no-repeat center/cover;  color: #fff; }
+	.destaque-titulo { font-size: 2em; margin: 1em 0; }
+	.destaques-lista li { list-style: none; margin-bottom: 1em;}
+	.destaques-lista a { color: #fff; }
+	.destaques-lista strong { color: yellow; }
+	.destaques-lista a:hover { color: #fff; }

@@ -1,0 +1,10 @@
+.documentacao { height: 16%; background: #222; }
+	.documentacao-titulo { color: #fff; text-align: center; position: relative; top: 50px; }
+	.documentacao img { border-radius: 50%; position: relative; top: 100px; left: 100px; }
+	.documentacao-detalhes { position: relative; left: 900px; bottom: 200px; color: #fff; }
+	.documentacao-detalhes p { position: relative; bottom: 90px; 
+							right: 30px; color: #fff; }
+	.file, .money, .home, .law { position: relative; right: 100px; bottom: 60px; }
+	.info { padding: 1em; border-radius: 20px; border: 3px solid#fff; font-size: 1.3em; 
+			background: #fff; position: relative; color: #000; left: 30px; bottom: 20px; font-weight: bold; }
+	.info:hover { color: #b90415; text-decoration: none;}
