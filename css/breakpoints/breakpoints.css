@@ -31,7 +31,7 @@
 
 /*Destaque */
 	.destaque { background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),
-				url(../img/meeting5_red_breakpoints.jpg)no-repeat right/cover; }
+				url(../../img/meeting5_red_breakpoints.jpg)no-repeat right/cover; }
 	.destaque span, strong { font-size: 1.3em; }
 	.destaques p { position: relative; right: 50px; }
 	.titulo-destaque_1 { font-size: 1.2em; width: 300px; text-align: center; position: relative; 
@@ -61,7 +61,7 @@
 	.icones-detalhes p:nth-child(7) { bottom:50px; left: 140px; }
 	.trofeu, .check, .chart, .star { position: relative; margin-bottom: 0.5em; right: 15px;  
 						top: 20px; }
-}
+
 /* Fim de vantagens */
 
 /*sobre*/
@@ -116,6 +116,9 @@
 	.cartao-detalhes_1 { position: relative; left: 10px; bottom: 250px; }
 	.cartao-detalhes_2 { position: relative; left: 10px; top: 120px; }
 	.cartao-detalhes_3 { position: relative; left: 10px; top: 170px; }
+	.cartao-detalhes_4 { position: relative; left: 10px; bottom: 250px; }
+	.cartao-detalhes_5 { position: relative; left: 10px; top: 120px; }
+	.cartao-detalhes_6 { position: relative; left: 10px; top: 170px; }
 	.angle-left, .angle-right { color: #000; position: relative; bottom: 70px; height: 50px; }
 	.angle-left { right: 30px; }
 	.angle-right { right: 380px; }
@@ -142,6 +145,9 @@
 					position: relative; right: 20px; }
 	.redes-sociais li a { position: relative; top: 130px; left: 0px; }
 /*Fim do rodapé*/
+
+}
+
 
 @media (min-width: 421px) and (max-width: 720px) {
 

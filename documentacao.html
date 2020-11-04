@@ -5,25 +5,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>DNA Consultoria</title>
 		<!-- normalize css -->
-		<link rel="stylesheet" type="text/css" href="./css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="./css/geral/normalize.css">
 		<!-- docs css -->
-		<link rel="stylesheet" type="text/css" href="./css/docs.css">
+		<link rel="stylesheet" type="text/css" href="./css/docs/docs.css">
 		<!-- navegacao css -->
-		<link rel="stylesheet" type="text/css" href="./css/navegacao.css">
+		<link rel="stylesheet" type="text/css" href="./css/navegacao/navegacao.css">
 		<!-- footer -->
-		<link rel="stylesheet" type="text/css" href="./css/rodape.css">
-		<!-- breakpoints css -->
-		<link rel="stylesheet" type="text/css" href="./css/breakpoints.css">
+		<link rel="stylesheet" type="text/css" href="./css/rodape/rodape.css">
 		<!-- aos -->
-		<link rel="stylesheet" type="text/css" href="./css/aos.css">
+		<link rel="stylesheet" type="text/css" href="./css/geral/aos.css">
 		<!-- bootstrap -->
-		<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="./css/geral/bootstrap.min.css">
 		<!-- google fonts -->
 		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
 		<!-- font awesome -->
 		<script src="./js/fontawesome-all.js"></script>
-		<!-- slider -->
-		<link rel="stylesheet" type="text/css" href="./css/slider.css">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -35,10 +31,10 @@
 				<div class="navegacao-itens">
 					<ul class="navegacao-itens-lista">
 						<li>
-							<a href="index.html">Home</a>
+							<a class="active" href="index.html">Home</a>
 						</li>
 						<li>
-							<a href="#rodape">Fale conosco</a>
+							<a class="nav-contato" href="#rodape">Fale conosco</a>
 						</li>
 					</ul>
 				</div>
@@ -96,10 +92,8 @@
 			<div id="rodape"></div>
 			<footer class="rodape">
 				<div class="rodape-itens">
+					<h6 class="rodape-titulo">Fale Conosco</h6>
 					<ul class="rodape-itens-lista">
-						<li>
-							<a class="rodape-titulo">Fale Conosco</a>
-						</li>
 						<li>
 							<a href="">E-mail: oabmarcio@yahoo.com.br</a>
 						</li>
@@ -109,18 +103,12 @@
 						<p>&copy; DNA Consultoria</p>
 					</ul>
 					<div id="newsletter" class="col-md-5 col-sm-12">
-			          <h4 class="rodape-titulo" class="rodape-newsletter">Newsletter</h4>
-			          <form class="form-inline">
-			            <div class="col pl-0">
-			              <div class="input-group pr-5">
-			                <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Email">
-			                <div class="input-group-prepend">
-			                  <div class="input-group-text">
-			                    <i class="fas fa-arrow-right"></i>
-			                  </div>
-			                </div>
-			              </div>
-			            </div>
+			          <h4 class="rodape-newsletter">Newsletter</h4>
+			          <form>
+			          	<div class="form-news">
+			          		<input type="text" class="input-news" placeholder="   Email">
+			          		<button class="submit-news" type="submit"><i class="news-angle-right fas fa-angle-right fa-2x"></i></button>
+			          	</div>
 			          </form>
 			        </div>
 			        <ul class="redes-sociais">
@@ -149,6 +137,9 @@
 
     <!-- Custom Javascript file -->
     <script src="./js/main.js"></script>
+
+     <!-- index.js -->
+    <script src="./js/index.js" async></script>
 
 	</body>
 </html>

@@ -1,6 +1,6 @@
 /*Destaques -------------------------------------------------------------------------------*/
 .destaque { grid-area: main; background: linear-gradient(rgba(0,0,0,0.8), 
-			rgba(0,0,0,0.5)),url(../img/meeting5_red.jpg)no-repeat center/cover; }
+			rgba(0,0,0,0.5)),url(../../img/meeting5_red.jpg)no-repeat center/cover; }
 .destaque span, strong { font-size: 1.5em; }
 .destaque span { color: yellow; }
 			.titulo-destaque_1 { color: #fff; font-size: 1.9em; width: 100%;
