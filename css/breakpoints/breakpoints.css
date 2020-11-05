@@ -14,7 +14,7 @@
 	.navegacao { flex-direction: column; align-items: flex-start; }
 	.navegacao { width: 100%; }
 	.navegacao-itens ul { text-align: center; display: block; }
-	.navegacao-itens ul li { padding: 2em 8em; }
+	.navegacao-itens ul li { padding: 2em 8em; width: 100%; }
 	.navegacao-itens ul li:hover { background: #999; padding: 2em; }
 	.navegacao-itens.active { display: flex; position: relative; z-index: 10; background: #fff; }
 /*Fim da navegação*/
@@ -148,11 +148,78 @@
 
 }
 
+       /*        WIDTH 421 - 720 */
 
-@media (min-width: 421px) and (max-width: 720px) {
+
+@media (min-width: 421px) and (max-width: 770px) {
+
+	/*conteudo*/
+.vantagens { height: 15.5%; }
+.sobre { height: 18%; }
+.mensagem { height: 9%; }
+.produtos { height: 21.5%; }
+.documentacao { height: 16%; }
+.depoimentos { height: 10%; }
+.secao-cta { height: 10%; }
+/*Fim da seção conteúdo*/
+
+/* Navegação */
+/*Navegação*/
+.toggle-button { display: flex; }
+	.navegacao-itens { display: none; margin: 0; position: relative; right: 50px; }
+	.navegacao { flex-direction: column; align-items: flex-start; }
+	.navegacao { width: 100%; }
+	.navegacao-itens ul { text-align: center; display: block; }
+	.navegacao-itens ul li { padding: 2em 18em; width: 100%; }
+	.navegacao-itens ul li:hover { background: #999; padding: 2em; }
+	.navegacao-itens.active { display: flex; position: relative; z-index: 10; background: #fff; }
+/*Fim da navegação*/
+/* Fim da navegação */
+
+/* Seção destaques */
+.destaque { text-align: center; }
+.titulo-destaque_1 { font-size: 1.8em; }
+.paragrafo-destaque_1, .titulo-destaque_2, .paragrafo-destaque_2 { position: relative; left: 10px; top: 100px; }
+.titulo-destaque_2, .paragrafo-destaque_2 { font-size: 1.7em; width: 90%; }
+.destaque-cta { position: relative; top: 150px; left: 0px; }
+
+/* Fim da seção destaques */
+
+/* Vantagens */
+	
+	.imagem-vantagens { position: relative; left: 30px; top: 150px; height: 200px; }
+	.icones-detalhes { font-size: 1em; margin-left: 30em; position: relative; right: 180px; 
+						bottom: 100px; }
+	.trofeu, .check, .chart { height: 30px; }
+	.icones-detalhes p { font-size: 1em; text-align: left; width: 250px; }
+	.icones-detalhes p:nth-child(2) { left: 160px; bottom: 30px; }
+	.icones-detalhes p:nth-child(4) { left: 160px; bottom: 30px; }
+	.icones-detalhes p:nth-child(6) { bottom: 40px; left: 160px; }
+	.icones-detalhes p:nth-child(7) { bottom:50px; left: 160px; }
+	.trofeu, .check, .chart, .star { position: relative; margin-bottom: 0.5em; right: 15px;  
+						top: 20px; }
+
+/* Fim de vantagens */
+
+/* Sobre */
+.sobre img { height: 400px; left: 50px; }
+.sobre-detalhes { position: relative; left: 350px; bottom: 300px; 
+				width: 50%;	font-size: 0.9em; }
+/* Fim sobre */
+
+/* Mensagem */
+.msg-frase { font-size: 1.5em; width: 90%; left: 50px; }
+.msg-autor { font-size: 1em; left: 300px; }
+/* Fim mensagem */
+
+/* Produtos */
+.produtos img { height: 350px; right: 300px; top: 200px; }
+.produtos-titulo { bottom: 350px; right: 400px; font-size: 2em;}
+.produtos-paragrafo { font-size: 1em; right: 20px; bottom: 200px; }
+.produtos-cta {top: 15px; right: 220px; }
+/* Fim produtos */
 
 }
-
 @media (min-width: 721px) and (max-width: 920px) {
 
 }
