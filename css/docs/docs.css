@@ -4,7 +4,7 @@
 body { padding: 0; margin: 0; overflow-x: hidden; }
 	.wrapper { height: 1200px; overflow: hidden; display: grid; 
 				grid-template-areas: "nav" "main" "footer"; 
-				grid-template-rows: 10% 60% 34%; font-family: 'Open Sans', sans-serif; }
+				grid-template-rows: 10% 69% 21%; font-family: 'Open Sans', sans-serif; }
 /*Fim estilos gerais -----------------------------------------------------------------------*/
 
 .destaque {grid-area: main; background: linear-gradient(rgba(0,0,0,0.8), 
@@ -15,12 +15,20 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 	.destaques-lista strong { color: yellow; }
 	.destaques-lista a:hover { color: #fff; }
 
+/* rodape */
+.rodape-itens h6 { color: #fff; font-size: 1.7em; font-weight: bold; 
+					position: relative; left: 50px; top: 50px; }
+.rodape-itens-lista { position: relative; right: 160px; top: 60px; }
+.form-news { position: relative; right: 150px; }
+.rodape-newsletter { color: #fff; font-weight: bold; position: relative; 
+						right: 150px; font-size: 1.7em; }
+.redes-sociais { position: relative; right: 170px; }
 /*                 MEDIA        QUERIES                       */
 
 @media (max-width: 420px) {
 
 /*Estilos gerais*/
-.wrapper { height: 1400px; }
+.wrapper { height: 1400px; grid-template-rows: 10% 60% 34%; }
 /*Fim estilos gerais*/
 
 /*Navegação*/
