@@ -143,7 +143,7 @@
 	.submit-news { background: #000; border: 2px solid #fff; 
 					border-top-right-radius: 10px; border-bottom-right-radius: 10px; padding: 0 1em; 
 					position: relative; right: 20px; }
-	.redes-sociais li a { position: relative; top: 130px; left: 0px; }
+	.redes-sociais { position: relative; bottom: 0px; right: 200px; }
 /*Fim do rodapé*/
 
 }
@@ -151,7 +151,7 @@
        /*        WIDTH 421 - 720 */
 
 
-@media (min-width: 421px) and (max-width: 770px) {
+@media (min-width: 421px) and (max-width: 870px) {
 
 	/*conteudo*/
 .vantagens { height: 15.5%; }
@@ -170,7 +170,7 @@
 	.navegacao { flex-direction: column; align-items: flex-start; }
 	.navegacao { width: 100%; }
 	.navegacao-itens ul { text-align: center; display: block; }
-	.navegacao-itens ul li { padding: 2em 18em; width: 100%; }
+	.navegacao-itens ul li { padding: 2em 24em; width: 100%; }
 	.navegacao-itens ul li:hover { background: #999; padding: 2em; }
 	.navegacao-itens.active { display: flex; position: relative; z-index: 10; background: #fff; }
 /*Fim da navegação*/
@@ -178,9 +178,10 @@
 
 /* Seção destaques */
 .destaque { text-align: center; }
-.titulo-destaque_1 { font-size: 1.8em; }
-.paragrafo-destaque_1, .titulo-destaque_2, .paragrafo-destaque_2 { position: relative; left: 10px; top: 100px; }
-.titulo-destaque_2, .paragrafo-destaque_2 { font-size: 1.7em; width: 90%; }
+.titulo-destaque_1, .paragrafo-destaque_1 { font-size: 1.5em; width: 90%; }
+.paragrafo-destaque_1, .titulo-destaque_2, .paragrafo-destaque_2 { 
+		position: relative; left: 10px; top: 100px; }
+.titulo-destaque_2, .paragrafo-destaque_2 { font-size: 1.5em; width: 90%; }
 .destaque-cta { position: relative; top: 150px; left: 0px; }
 
 /* Fim da seção destaques */
@@ -196,7 +197,7 @@
 	.icones-detalhes p:nth-child(4) { left: 160px; bottom: 30px; }
 	.icones-detalhes p:nth-child(6) { bottom: 40px; left: 160px; }
 	.icones-detalhes p:nth-child(7) { bottom:50px; left: 160px; }
-	.trofeu, .check, .chart, .star { position: relative; margin-bottom: 0.5em; right: 15px;  
+	.trofeu, .check, .chart, .star { position: relative; margin-bottom: 0.5em; right: 50px;  
 						top: 20px; }
 
 /* Fim de vantagens */
@@ -208,36 +209,45 @@
 /* Fim sobre */
 
 /* Mensagem */
-.msg-frase { font-size: 1.5em; width: 90%; left: 50px; }
+.msg-frase { font-size: 1.5em; width: 80%; left: 50px; }
 .msg-autor { font-size: 1em; left: 300px; }
 /* Fim mensagem */
 
 /* Produtos */
-.produtos img { height: 350px; right: 300px; top: 200px; }
-.produtos-titulo { bottom: 350px; right: 400px; font-size: 2em;}
-.produtos-paragrafo { font-size: 1em; right: 20px; bottom: 200px; }
+.produtos img { height: 350px; right: 400px; top: 200px; }
+.produtos-titulo { bottom: 350px; right: 500px; font-size: 2em;}
+.produtos-paragrafo { font-size: 1em; right: 130px; bottom: 200px; }
 .produtos-cta {top: 15px; right: 220px; }
 /* Fim produtos */
 
 /* Documentação */
-.documentacao img { height: 200px; left: 20px; top: 200px; }
-.documentacao-detalhes { left: 450px; top: 0px; font-size: 0.9em; }
+.documentacao img { height: 180px; left: 20px; top: 200px; }
+.documentacao-detalhes { left: 410px; top: 0px; font-size: 0.9em; }
 .info { font-size: 1em; }
 /*Fim documentação */
 
 /* Depoimentos */
+.carousel { right: 50px; }
 .cartao { width: 21%; font-size: 0.8em; }
-.cartao-detalhes_1 { position: relative; left: 80px; top: 60px; }
-	.cartao-detalhes_2 { position: relative; left: 300px; bottom: 100px;}
-	.cartao-detalhes_3 { position: relative; left: 520px; bottom: 230px; }
-	.cartao-detalhes_4 { position: relative; left: 80px; top: 60px; }
-	.cartao-detalhes_5 { position: relative; left: 300px; bottom: 135px;}
-	.cartao-detalhes_6 { position: relative; left: 520px; bottom: 330px; }
-.secao-cta-btn { left: 140px; }
+.cartao-detalhes_1 { position: relative; left: 100px; top: 60px; }
+	.cartao-detalhes_2 { position: relative; left: 330px; bottom: 70px;}
+	.cartao-detalhes_3 { position: relative; left: 560px; bottom: 200px; }
+	.cartao-detalhes_4 { position: relative; left: 100px; top: 60px; }
+	.cartao-detalhes_5 { position: relative; left: 330px; bottom: 135px;}
+	.cartao-detalhes_6 { position: relative; left: 560px; bottom: 330px; }
+	.angle-left, .angle-right { position: relative; }
+	.angle-left { left: 90px; }
+	.angle-right { right: 90px; }
+.secao-cta-btn { left: 180px; }
 /* Fim de depoimentos */
 
 /* rodape */
-.redes-sociais li a { position: relative; top: 130px; right: 200px; }
+.rodape-itens { position: relative; }
+.rodape-itens-lista { font-size: 0.8em; position: relative; right: 30px;
+						width: 250px; }
+.redes-sociais li { position: relative; top: 100px; right: 350px; 
+					list-style: none; width: 200px;}
+.linkedin, .facebook, .whatsapp, .instagram { height: 25px; margin-right: 0; }
 /*Fim rodape*/
 }
 @media (min-width: 721px) and (max-width: 920px) {
