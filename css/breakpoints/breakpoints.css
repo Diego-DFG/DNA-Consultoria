@@ -230,8 +230,8 @@
 .carousel { right: 50px; }
 .cartao { width: 21%; font-size: 0.8em; }
 .cartao-detalhes_1 { position: relative; left: 100px; top: 60px; }
-	.cartao-detalhes_2 { position: relative; left: 330px; bottom: 70px;}
-	.cartao-detalhes_3 { position: relative; left: 560px; bottom: 200px; }
+	.cartao-detalhes_2 { position: relative; left: 330px; bottom: 40px;}
+	.cartao-detalhes_3 { position: relative; left: 560px; bottom: 170px; }
 	.cartao-detalhes_4 { position: relative; left: 100px; top: 60px; }
 	.cartao-detalhes_5 { position: relative; left: 330px; bottom: 135px;}
 	.cartao-detalhes_6 { position: relative; left: 560px; bottom: 330px; }
@@ -245,7 +245,7 @@
 .rodape-itens { position: relative; }
 .rodape-itens-lista { font-size: 0.8em; position: relative; right: 30px;
 						width: 250px; }
-.redes-sociais li { position: relative; top: 100px; right: 350px; 
+.redes-sociais li { position: relative; top: 100px; right: 380px; 
 					list-style: none; width: 200px;}
 .linkedin, .facebook, .whatsapp, .instagram { height: 25px; margin-right: 0; }
 /*Fim rodape*/

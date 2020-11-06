@@ -55,3 +55,19 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 /*Fim do rodapé*/
 
 }
+
+@media (min-width: 421px) and (max-width: 870px) {
+
+	/* rodape */
+.rodape-itens { position: relative; }
+.rodape-itens-lista { font-size: 0.8em; position: relative; right: 30px;
+						width: 350px; top: 0px; }
+.redes-sociais li { position: relative; top: 100px; right: 310px; 
+					list-style: none; width: 200px;}
+.form-news { position: relative; right: 60px; }
+.rodape-newsletter { color: #fff; font-weight: bold; position: relative; 
+						right: 60px; font-size: 1.7em; }
+.linkedin, .facebook, .whatsapp, .instagram { height: 25px; margin-right: 0; }
+/*Fim rodape*/
+
+}
