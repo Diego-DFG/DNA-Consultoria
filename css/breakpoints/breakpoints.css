@@ -219,6 +219,26 @@
 .produtos-cta {top: 15px; right: 220px; }
 /* Fim produtos */
 
+/* Documentação */
+.documentacao img { height: 200px; left: 20px; top: 200px; }
+.documentacao-detalhes { left: 450px; top: 0px; font-size: 0.9em; }
+.info { font-size: 1em; }
+/*Fim documentação */
+
+/* Depoimentos */
+.cartao { width: 21%; font-size: 0.8em; }
+.cartao-detalhes_1 { position: relative; left: 80px; top: 60px; }
+	.cartao-detalhes_2 { position: relative; left: 300px; bottom: 100px;}
+	.cartao-detalhes_3 { position: relative; left: 520px; bottom: 230px; }
+	.cartao-detalhes_4 { position: relative; left: 80px; top: 60px; }
+	.cartao-detalhes_5 { position: relative; left: 300px; bottom: 135px;}
+	.cartao-detalhes_6 { position: relative; left: 520px; bottom: 330px; }
+.secao-cta-btn { left: 140px; }
+/* Fim de depoimentos */
+
+/* rodape */
+.redes-sociais li a { position: relative; top: 130px; right: 200px; }
+/*Fim rodape*/
 }
 @media (min-width: 721px) and (max-width: 920px) {
 
