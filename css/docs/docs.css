@@ -15,20 +15,13 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 	.destaques-lista strong { color: yellow; }
 	.destaques-lista a:hover { color: #fff; }
 
-/* rodape */
-.rodape-itens h6 { color: #fff; font-size: 1.7em; font-weight: bold; 
-					position: relative; left: 50px; top: 50px; }
-.rodape-itens-lista { position: relative; right: 160px; top: 60px; }
-.form-news { position: relative; right: 150px; }
-.rodape-newsletter { color: #fff; font-weight: bold; position: relative; 
-						right: 150px; font-size: 1.7em; }
-.redes-sociais { position: relative; right: 170px; }
+
 /*                 MEDIA        QUERIES                       */
 
 @media (max-width: 420px) {
 
 /*Estilos gerais*/
-.wrapper { height: 1400px; grid-template-rows: 10% 60% 34%; }
+.wrapper { height: 2000px; grid-template-rows: 10% 67% 27%; }
 /*Fim estilos gerais*/
 
 /*Navegação*/
@@ -44,30 +37,27 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 /*Fim destaque */
 
 /*rodapé*/
-.rodape-itens h6 { color: #fff; font-weight: bold; font-size: 0.8em; position: relative; top: 50px; 
-					left: 10px; width: 200px; height: 70%; }
-.rodape-newsletter { position: relative; right: 345px; top: 200px; font-size: 1em; 
-						color: #fff; font-weight: bold; }
-.redes-sociais { position: relative; right: 980px; top: 292px; width: 400px; display: flex; }
-.rodape-itens-lista { position: relative; right: 135px; font-size: 0.9em; top: 30px; }
-.rodape-itens-lista li a { font-size: 0.8em; }
-.form-news { position: relative; right: 345px; top: 196px; }
+	.rodape-itens { position: relative; right: 30px; display: block; }
+	.rodape-itens-lista li { position: relative; top: 50px; }
+	.rodape-itens-lista li a { font-size: 0.8em; }
+	.rodape-itens-lista p { position: relative; top: 50px; font-size: 0.8em; }
+	.dev { position: relative; top: 500px; right: 1040px; font-size: 0.8em; }
+	.rodape-titulo { font-size: 1em; font-weight: bold; }
+	#newsletter { position: relative; top: 100px; left: 25px; }
+	.input-news { width: 250px; margin-right: 1em; border-top-left-radius: 10px; 
+					border-bottom-left-radius: 10px; border: none; }
+	.form-news { display: flex; }
+	.news-angle-right { cursor: pointer; color: #fff; }
+	.submit-news { background: #000; border: 2px solid #fff; 
+					border-top-right-radius: 10px; border-bottom-right-radius: 10px; padding: 0 1em; 
+					position: relative; right: 20px; }
+	.redes-sociais { position: relative; top: 60px; right: 50px; }
 /*Fim do rodapé*/
 
 }
 
 @media (min-width: 421px) and (max-width: 870px) {
 
-	/* rodape */
-.rodape-itens { position: relative; }
-.rodape-itens-lista { font-size: 0.8em; position: relative; right: 30px;
-						width: 350px; top: 0px; }
-.redes-sociais li { position: relative; top: 100px; right: 310px; 
-					list-style: none; width: 200px;}
-.form-news { position: relative; right: 60px; }
-.rodape-newsletter { color: #fff; font-weight: bold; position: relative; 
-						right: 60px; font-size: 1.7em; }
-.linkedin, .facebook, .whatsapp, .instagram { height: 25px; margin-right: 0; }
 /*Fim rodape*/
 
 }
