@@ -151,7 +151,7 @@
        /*        WIDTH 421 - 720 */
 
 
-@media (min-width: 421px) and (max-width: 870px) {
+@media (min-width: 421px) and (max-width: 970px) {
 
 	/*conteudo*/
 .vantagens { height: 15.5%; }
@@ -250,6 +250,11 @@
 .linkedin, .facebook, .whatsapp, .instagram { height: 25px; margin-right: 0; }
 /*Fim rodape*/
 }
-@media (min-width: 721px) and (max-width: 920px) {
+@media (min-width: 971px) and (max-width: 1300px) {
+
+/* Mensagem */
+.msg-frase { font-size: 1.5em; width: 80%; left: 10px; }
+.msg-autor { font-size: 1em; left: 300px; }
+/* Fim mensagem */
 
 }

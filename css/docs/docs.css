@@ -21,7 +21,7 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 @media (max-width: 420px) {
 
 /*Estilos gerais*/
-.wrapper { height: 2000px; grid-template-rows: 10% 67% 27%; }
+.wrapper { height: 2200px; grid-template-rows: 10% 68.5% 25.5%; }
 /*Fim estilos gerais*/
 
 /*Navegação*/
@@ -56,8 +56,15 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 }
 
-@media (min-width: 421px) and (max-width: 870px) {
+@media (min-width: 421px) and (max-width: 970px) {
 
+/* rodape */
+.rodape-itens { position: relative; }
+.rodape-itens-lista { font-size: 0.8em; position: relative; right: 30px;
+						width: 250px; }
+.redes-sociais li { position: relative; top: 100px; right: 380px; 
+					list-style: none; width: 200px;}
+.linkedin, .facebook, .whatsapp, .instagram { height: 25px; margin-right: 0; }
 /*Fim rodape*/
 
 }
