@@ -34,6 +34,7 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 /*Destaque*/
 .destaque-titulo { font-size: 1.5em; position: relative; left: 1em; }
 .destaques-lista { width: 32%; }
+.destaques-lista li { margin-bottom: 2.2em; }
 .destaques-lista li a { font-size: 0.8em; position: relative; right: 2.5em; }
 /*Fim destaque */
 
