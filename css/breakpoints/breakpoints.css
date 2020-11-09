@@ -15,6 +15,7 @@
 	.navegacao { width: 100%; }
 	.navegacao-itens ul { text-align: center; display: block; }
 	.navegacao-itens ul li { padding: 2em 8em; width: 100%; }
+	.navegacao-itens ul li a { position: relative; right: 40px; }
 	.navegacao-itens ul li:hover { background: #999; padding: 2em; }
 	.navegacao-itens.active { display: flex; position: relative; z-index: 10; background: #fff; }
 /*Fim da navegação*/
